@@ -1,11 +1,13 @@
 # Write your #display_rainbow method here
 
-colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+# colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
 
 
 
 
-def display_rainbow(colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'])
+# def display_rainbow(colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'])
+def display_rainbow(colors)
+
   # puts "R: red, O: orange, Y: yellow, G: green, B: blue, I: indigo, V: violet"
   puts "R: red, O: orange, Y: yellow, G: green, B: blue, I: indigo, V: violet"
   # puts "The first color in the rainbow is: #{colors[0]}"
@@ -19,4 +21,5 @@ end
 
 # display_rainbow(red, orange, yellow, green, blue, indigo, violet)
 
-display_rainbow(colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"])
+# display_rainbow(colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"])
+display_rainbow(colors)
