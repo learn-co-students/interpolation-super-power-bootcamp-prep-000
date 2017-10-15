@@ -6,5 +6,3 @@ def display_rainbow(colors)
   end
   puts retval.join(', ')
 end
-
-display_rainbow(['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'])
