@@ -1,4 +1,4 @@
 # Write your #display_rainbow method here
-def display_rainbow(letters)
-  puts "R: #{letters[0]}, O: #{letters[1]}, Y: #{letters[2]}, G: #{letters[3]}, B: #{letters[4]}, I: #{letters[5]}, V: #{letters[6]}\n""
+def display_rainbow(colors)
+  puts "R: #{colors[0]}, O: #{colors[1]}, Y: #{colors[2]}, G: #{colors[3]}, B: #{colors[4]}, I: #{colors[5]}, V: #{colors[6]}"
 end
