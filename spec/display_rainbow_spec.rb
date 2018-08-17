@@ -4,11 +4,11 @@ describe '#display_rainbow' do
 
     allow(self).to receive(:puts)
 
-    expect { display_rainbow(colors) }.to_not raise_error(NoMethodError)
-    expect { display_rainbow(colors) }.to_not raise_error(ArgumentError)
+    expect { display_rainbow('colors') }.to_not raise_error(NoMethodError)
+    expect { display_rainbow('colors') }.to_not raise_error(ArgumentError)
   end
 
-  it 'prints out the colors of the rainbow correctly when passed in in order' do
+  it 'prints out the colors of the rainbow correctly when passed in order' do
     colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
 
     expect(colors).to receive(:[]).with(0).at_least(:once).and_return("red")
