@@ -166,6 +166,7 @@ print_business_card(stefani)
 # => "Contact: 555-111-1111"
 ```
 
+
 String interpolation is basically a super power. And like any good super power, mastery comes with practice! (That's how Superman got so good at flying, right?) Your turn!
 
 ## Instructions
