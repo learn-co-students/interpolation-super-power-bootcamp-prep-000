@@ -1,7 +1,8 @@
 # Write your #display_rainbow method here
 def display_rainbow(colors)
-  for i in 0..(colors.count-2) do
+  arrLength = colors.count-1
+  for i in 0..(arrLength-1) do
     print "#{colors[i][0].upcase}: #{colors[i]}, "
   end
-  print "#{colors[colors.count-1][0].upcase}: #{colors[colors.count-1]}\n"
+  print "#{colors[arrLength][0].upcase}: #{colors[arrLength]}\n"
 end
