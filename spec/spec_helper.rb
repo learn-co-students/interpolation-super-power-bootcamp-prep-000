@@ -1,5 +1,7 @@
-require_relative "../lib/display_rainbow.rb"
+# frozen_string_literal: true
 
-RSpec.configure do |config|
+require_relative '../lib/display_rainbow.rb'
+
+RSpec.configure do |_config|
   RSpec::Expectations.configuration.warn_about_potential_false_positives = false
 end
