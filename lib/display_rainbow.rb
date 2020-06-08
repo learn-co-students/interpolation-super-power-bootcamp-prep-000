@@ -1,15 +1,17 @@
 # Write your #display_rainbow method here
 
-def print_display_rainbow(letters)
- 
-display_rainbow =['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
-display_rainbow[R, O, Y, G, B, I, V] = #[0, 1, 2, 3, 4, 5, 6]
-  #puts "The first letter in the alphabet is: #{letters[0]}"
-  #puts "The second letter in the alphabet is: #{letters[1]}"
- #puts "The third letter in the alphabet is: #{letters[2]}"
-  #puts "The fourth letter in the alphabet is: #{letters[3]}"
-  #puts "The fifth letter in the alphabet is: #{letters[4]}"
-  #puts "The sixth letter in the alphabet is:  #{letters[5]}"
- #puts "The seventh letter in the alphabet is: #{letters[6]}"
-  
-end  
+def print_display_rainbow(colors)
+end
+
+colors = (['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'])
+R = "red"
+O = "orange"
+Y = "yellow"
+G = "green"
+B = "blue"
+I = "indigo"
+V = "violet"
+
+def display_rainbow(colors)
+  puts "R: #{colors(0)}, O: #{colors(1}}, Y: #{colors(2)}, G: #{colors(3)}, B: #{colors(4)}, I: #{colors(5)}, V: #{colors(6)}, "
+end
